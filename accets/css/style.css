@@ -1,0 +1,49 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+} 
+ 
+ .shoes {
+    
+    height: 300px;
+    max-width: 100%;
+    background-image: url("../img/cream.jpg");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    border: 0px;
+    padding:0px;
+    
+}
+
+.shoes span {
+    font-size: 0.625rem;
+    
+}
+
+
+button {
+    text-decoration: none;
+}
+
+
+
+.shoes * {
+    text-align: left;
+}
+
+
+.shoes:focus-visible {
+    border-image-width: 0px;
+    border: 0px;
+    
+}
+
+
+.shoes:hover h5 {
+    text-decoration: underline;
+}
